@@ -27,6 +27,7 @@ def image_upload(request):
     if request.method == 'POST':
         form = PostForm(request.POST, request.FILES)
         if form.is_valid():
+            #3 lines under EPIC bypass!!!!! author in model becomes current user which is just A M A Z I N G
             instance = form.save(commit=False)
             instance.author = request.user
             instance.save()

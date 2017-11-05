@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8548e7e7-7beb-4a7f-aa26-5eb57ed0af69" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gram/templates/gram/image_upload.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/&lt;django.db.models.fields.related.ForeignKey&gt;/Logo_trans.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/&lt;django.db.models.fields.related.ForeignKey&gt;/Logo_trans_5HwdDAc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/&lt;django.db.models.fields.related.ForeignKey&gt;/Logo_trans_DvwQI80.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/&lt;django.db.models.fields.related.ForeignKey&gt;/Logo_trans_LcZ6olt.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/&lt;django.db.models.fields.related.ForeignKey&gt;/Logo_trans_br95isG.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/media/images/&lt;django.db.models.fields.related.ForeignKey&gt;/Logo_trans_c8cpWHe.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gram/admin.py" afterPath="$PROJECT_DIR$/gram/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gram/forms.py" afterPath="$PROJECT_DIR$/gram/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gram/models.py" afterPath="$PROJECT_DIR$/gram/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gram/templates/gram/home.html" afterPath="$PROJECT_DIR$/gram/templates/gram/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gram/urls.py" afterPath="$PROJECT_DIR$/gram/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gram/views.py" afterPath="$PROJECT_DIR$/gram/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mysite/settings.py" afterPath="$PROJECT_DIR$/mysite/settings.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,8 +70,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gram/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="405">
+              <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
               <folding>
                 <element signature="e#0#45#0" expanded="true" />
               </folding>
@@ -102,8 +102,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gram/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="135">
+              <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -161,8 +161,8 @@
         <option value="$PROJECT_DIR$/gram/templates/gram/home.html" />
         <option value="$PROJECT_DIR$/gram/templates/gram/image_upload.html" />
         <option value="$PROJECT_DIR$/gram/forms.py" />
-        <option value="$PROJECT_DIR$/gram/views.py" />
         <option value="$PROJECT_DIR$/gram/admin.py" />
+        <option value="$PROJECT_DIR$/gram/views.py" />
         <option value="$PROJECT_DIR$/gram/models.py" />
       </list>
     </option>
@@ -213,6 +213,11 @@
               <item name="gram" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="gram" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="biedagram" type="b2602c69:ProjectViewProjectNode" />
+              <item name="biedagram" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="biedagram" type="b2602c69:ProjectViewProjectNode" />
@@ -352,42 +357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="65" column="59" lean-forward="false" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gram/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gram/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gram/templates/gram/image_upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gram/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -408,10 +377,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gram/templates/gram/image_upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gram/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" lean-forward="false" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="65" column="59" lean-forward="false" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gram/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gram/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="135">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>

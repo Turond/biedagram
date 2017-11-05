@@ -17,6 +17,8 @@ def signup(request):
             email = form.cleaned_data.get('email')
             user = authenticate(username=username, password=user_password,email=email)
             return redirect('/')
+        else:
+            return render(request, 'gram/signup.html', {'form': form})
     else:
-        form = UserSignupForm
-        return render(request, 'gram/signup.html', {'form': form})
+        form = UserSignupForm()
+        return render(request,'gram/signup.html', {'form': form})

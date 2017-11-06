@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from .forms import UserSignupForm, PostForm
 from django.contrib.auth import authenticate
 from .models import Post
@@ -39,3 +39,7 @@ def image_upload(request):
     else:
         form = PostForm
         return render(request,'gram/image_upload.html', {'form': form})
+
+def view_post(request, post_id):
+    post = get_object_or_404(Post,id=post_id)
+    return render(request,'gram/view_post.html',{'post': post})

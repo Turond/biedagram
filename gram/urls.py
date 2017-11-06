@@ -10,6 +10,7 @@ urlpatterns = [
     url(r'^signin/$', auth_views.login, {'template_name': 'gram/signin.html'}, name='signin'),
     url(r'^signout/$', auth_views.logout, {'template_name': 'gram/home.html'}, name='signout'),
     url(r'^upload/$', views.image_upload, name='image_upload'),
+    url(r'^post/(?P<post_id>[0-9]+)/$', views.view_post, name='view_post'),
 ]
 
 if settings.DEBUG:

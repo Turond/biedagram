@@ -1,0 +1,13 @@
+{% extends "gram/home.html" %}
+
+{% block title %} {{ post.author }} {% endblock %}
+
+{% block content %}
+<h1>{{ post.title }}</h1>
+<h2>{{ post.description }}</h2>
+<br>
+<img src="{{ post.image.url }}">
+{{ post.id }}
+{{ post.image }}
+<br>
+{% endblock %}

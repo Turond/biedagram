@@ -1,11 +1,13 @@
 from django.shortcuts import render, redirect
 from .forms import UserSignupForm, PostForm
 from django.contrib.auth import authenticate
+from .models import Post
 
 # Create your views here.
 
 def homepage(request):
-    return render(request, 'gram/home.html',{})
+    query = Post.objects.all()
+    return render(request, 'gram/home.html',locals())
 
 def signup(request):
     if request.method == 'POST':
@@ -32,6 +34,8 @@ def image_upload(request):
             instance.author = request.user
             instance.save()
             return redirect('homepage')
+        else:
+            return render(request,'gram/image_upload.html', {'form': form})
     else:
         form = PostForm
         return render(request,'gram/image_upload.html', {'form': form})

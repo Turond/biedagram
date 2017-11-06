@@ -43,6 +43,9 @@
 <br>
 {% block content %}
 xd
+{% for item in query %}
+<img src="media/{{ item.image }}">
+{% endfor %}
 {% endblock %}
 </body>
 </html>

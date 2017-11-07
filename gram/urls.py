@@ -11,6 +11,7 @@ urlpatterns = [
     url(r'^signout/$', auth_views.logout, {'template_name': 'gram/home.html'}, name='signout'),
     url(r'^upload/$', views.image_upload, name='image_upload'),
     url(r'^(?P<post_author>.+)/post/(?P<post_id>[0-9]+)/$', views.view_post, name='view_post'),
+    url(r'^profile/(?P<post_author>.+)/$', views.view_profile, name='view_profile')
 ]
 
 if settings.DEBUG:

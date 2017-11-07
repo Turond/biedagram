@@ -44,3 +44,7 @@ def view_post(request, post_author, post_id):
     post_author = Post.author
     post = get_object_or_404(Post, id=post_id)
     return render(request,'gram/view_post.html',{'post': post, 'post_author': post_author})
+
+def view_profile(request,post_author):
+    posts = Post.objects.all
+    return render(request, 'gram/profile.html',locals())

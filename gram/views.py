@@ -40,6 +40,7 @@ def image_upload(request):
         form = PostForm
         return render(request,'gram/image_upload.html', {'form': form})
 
-def view_post(request, post_id):
-    post = get_object_or_404(Post,id=post_id)
-    return render(request,'gram/view_post.html',{'post': post})
+def view_post(request, post_author, post_id):
+    post_author = Post.author
+    post = get_object_or_404(Post, id=post_id)
+    return render(request,'gram/view_post.html',{'post': post, 'post_author': post_author})

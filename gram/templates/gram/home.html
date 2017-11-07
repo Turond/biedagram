@@ -44,8 +44,8 @@
 {% block content %}
 xd
 {% for item in query %}
-{{ item.author }}
-<a href="{% url 'view_post' post_id=item.id %}"><img src="media/{{ item.image }}"></a>
+<a href ="#">{{ item.author }}</a>
+<a href="{% url 'view_post' post_author=item.author post_id=item.id %}"><img src="media/{{ item.image }}"></a>
 {% endfor %}
 {% endblock %}
 </body>

@@ -9,7 +9,7 @@ class Post(models.Model):
     title = models.CharField(max_length=100)
     description = models.CharField(max_length=255, blank=True)
     date = models.DateTimeField(default=timezone.now())
-    author = models.ForeignKey('auth.User')
+    author = models.ForeignKey('auth.User',related_name='autor')
     image = models.ImageField(upload_to=user_directory_path)
 
     def __str__(self):

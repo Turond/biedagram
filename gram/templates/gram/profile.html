@@ -1,10 +1,13 @@
 {% extends "gram/home.html" %}
 
-{% block title %} {{ post.author }} {% endblock %}
+{% block title %} {{ request.resolver_match.kwargs.post_author }} {% endblock %}
 
 {% block content %}
-{% for post in posts %}
-{{ post.title }}
-<img src="{{ post.image.url }}">
+gowno?
+{% for item in post %}
+ {% if item.author.username == request.resolver_match.kwargs.post_author %}
+    {{ item.author }}
+{% endif %}
 {% endfor %}
+
 {% endblock %}

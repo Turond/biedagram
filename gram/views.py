@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from .forms import UserSignupForm, PostForm
 from django.contrib.auth import authenticate
 from .models import Post
+from django.contrib.auth.models import User
 
 # Create your views here.
 
@@ -46,5 +47,6 @@ def view_post(request, post_author, post_id):
     return render(request,'gram/view_post.html',{'post': post, 'post_author': post_author})
 
 def view_profile(request,post_author):
-    posts = Post.objects.all
-    return render(request, 'gram/profile.html',locals())
+    post = Post.objects.all
+    gowno = User.objects.all
+    return render(request, 'gram/profile.html', {'post': post,'gowno': gowno})

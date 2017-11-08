@@ -3,7 +3,8 @@
 {% block title %} {{ post.author }} {% endblock %}
 
 {% block content %}
-<h1>{{ post.title }}</h1>
+<h1>{{ post.title }}</h1>  <p><a href="{% url 'view_profile' post_author=post.author %}">
+    {{ post.author }}</a> </p>
 <h2>{{ post.description }}</h2>
 <br>
 <img src="{{ post.image.url }}">
